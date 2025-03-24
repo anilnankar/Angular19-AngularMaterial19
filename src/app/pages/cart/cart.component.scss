@@ -1,0 +1,26 @@
+.cart-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .cart-items {
+    flex: 2;
+    padding: 20px;
+  }
+
+  .cart-summary {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .cart-container {
+      flex-direction: column;
+    }
+  }
